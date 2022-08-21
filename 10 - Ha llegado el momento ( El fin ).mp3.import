@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/10 - Ha llegado el momento ( El fin ).mp3-5830c73e602955605e9dd4fb7f320763.mp3str"
+
+[deps]
+
+source_file="res://10 - Ha llegado el momento ( El fin ).mp3"
+dest_files=[ "res://.import/10 - Ha llegado el momento ( El fin ).mp3-5830c73e602955605e9dd4fb7f320763.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

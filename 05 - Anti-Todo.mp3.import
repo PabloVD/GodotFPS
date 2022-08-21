@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/05 - Anti-Todo.mp3-234ae3151e106fafecbfe60e63a4dda8.mp3str"
+
+[deps]
+
+source_file="res://05 - Anti-Todo.mp3"
+dest_files=[ "res://.import/05 - Anti-Todo.mp3-234ae3151e106fafecbfe60e63a4dda8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
