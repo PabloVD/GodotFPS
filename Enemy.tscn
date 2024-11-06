@@ -25,6 +25,11 @@ material/0 = SubResource( 2 )
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 1, 0 )
 shape = SubResource( 3 )
 
-[node name="Timer" type="Timer" parent="."]
+[node name="TimerAttack" type="Timer" parent="."]
 
-[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[node name="TimerNav" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="TimerAttack" to="." method="_on_Timer_timeout"]
+[connection signal="timeout" from="TimerNav" to="." method="_on_TimerNav_timeout"]
